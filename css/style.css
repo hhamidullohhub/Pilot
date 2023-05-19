@@ -11,6 +11,10 @@ body {
     height: 100vh;
 }
 
+.person {
+    width: 40px;
+}
+
 .pilot {
     width: 200px;
     height: 100px;
