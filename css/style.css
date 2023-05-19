@@ -16,4 +16,9 @@ body {
     height: 100px;
     margin-left: -626px;
     margin-top: 105px;
+    animation-name: pilot;
+}
+
+@keyframes {
+
 }
