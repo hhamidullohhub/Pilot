@@ -15,6 +15,10 @@ body {
     width: 40px;
 }
 
+.putin {
+    width: 50px;
+}
+
 .pilot {
     width: 200px;
     height: 100px;
@@ -26,6 +30,20 @@ body {
 }
 
 @keyframes pilot {
+    0% {
+        transform: translateX(0px);
+    }
+
+    20% {
+        transform: translateX(426px) translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(+100px);
+    }
+}
+
+@keyframes .putin {
     0% {
         transform: translateX(0px);
     }
