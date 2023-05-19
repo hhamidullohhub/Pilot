@@ -66,4 +66,6 @@ body {
     width: 50px;
     margin-top: -300px;
     margin-left: -360px;
+    animation-name: bird;
+    animation-duration: 2s;
 }
