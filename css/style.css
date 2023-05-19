@@ -21,7 +21,7 @@ body {
     margin-top: 100px;
     animation-name: putin;
     animation-duration: 5s;
-    animation-iteration-count: 2s;
+    animation-iteration-count: 2;
 }
 
 .pilot {
@@ -31,7 +31,7 @@ body {
     margin-top: 100px;
     animation-name: pilot;
     animation-duration: 5s;
-    animation-iteration-count: 2s;
+    animation-iteration-count: 2;
 }
 
 @keyframes pilot {
