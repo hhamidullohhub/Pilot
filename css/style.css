@@ -15,7 +15,7 @@ body {
     width: 200px;
     height: 100px;
     margin-left: -626px;
-    margin-top: 105px;
+    margin-top: 100px;
     animation-name: pilot;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -23,10 +23,10 @@ body {
 
 @keyframes pilot {
     0% {
-        transform: translateY(0px);
+        transform: translateX(0px);
     }
 
     20% {
-        transform: translateY(160px);
+        transform: translateX(426px) translateY(-100px);
     }
 }
