@@ -16,7 +16,12 @@ body {
 }
 
 .putin {
-    width: 50px;
+    width: 20px;
+    margin-left: -106px;
+    margin-top: 100px;
+    animation-name: putin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 .pilot {
@@ -43,7 +48,7 @@ body {
     }
 }
 
-@keyframes .putin {
+@keyframes putin {
     0% {
         transform: translateX(0px);
     }
