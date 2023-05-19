@@ -61,3 +61,7 @@ body {
         transform: translateY(+100px);
     }
 }
+
+.bird {
+    width: 50px;
+}
