@@ -17,7 +17,7 @@ body {
     margin-left: -626px;
     margin-top: 100px;
     animation-name: pilot;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
@@ -28,5 +28,9 @@ body {
 
     20% {
         transform: translateX(426px) translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(+100px);
     }
 }
