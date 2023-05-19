@@ -21,7 +21,7 @@ body {
     margin-top: 100px;
     animation-name: putin;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2s;
 }
 
 .pilot {
