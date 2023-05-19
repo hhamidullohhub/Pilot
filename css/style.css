@@ -11,4 +11,7 @@ body {
     height: 100vh;
 }
 
-.pilot
+.pilot {
+    width: 100px;
+    height: 100px;
+}
