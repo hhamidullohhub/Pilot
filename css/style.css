@@ -79,4 +79,8 @@ body {
     20% {
         transform: translate(200px);
     }
+
+    50% {
+        transform: translate(300px);
+    }
 }
