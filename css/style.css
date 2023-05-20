@@ -68,4 +68,15 @@ body {
     margin-left: -360px;
     animation-name: bird;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bird {
+    0% {
+        transform: translate(100px);
+    }
+
+    20% {
+        transform: translate(50px);
+    }
 }
