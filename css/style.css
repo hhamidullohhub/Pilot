@@ -70,7 +70,7 @@ body {
     animation-name: bird;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    
+
 }
 
 @keyframes bird {
@@ -83,6 +83,6 @@ body {
     }
 
     50% {
-        transform: translate(500px);
+        transform: translateX(500px);
     }
 }
