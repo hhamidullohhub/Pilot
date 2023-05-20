@@ -77,6 +77,6 @@ body {
     }
 
     20% {
-        transform: translate(50px);
+        transform: translate(200px);
     }
 }
