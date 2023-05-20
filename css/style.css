@@ -21,7 +21,7 @@ body {
     margin-top: 100px;
     animation-name: putin;
     animation-duration: 5s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 }
 
 .pilot {
@@ -29,9 +29,10 @@ body {
     height: 100px;
     margin-left: -626px;
     margin-top: 100px;
+    border-radius: 10px;
     animation-name: pilot;
     animation-duration: 5s;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 }
 
 @keyframes pilot {
@@ -67,13 +68,14 @@ body {
     margin-top: -300px;
     margin-left: -360px;
     animation-name: bird;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
+    
 }
 
 @keyframes bird {
     0% {
-        transform: translate(100px);
+        transform: translateY(200px);
     }
 
     20% {
@@ -81,6 +83,6 @@ body {
     }
 
     50% {
-        transform: translate(300px);
+        transform: translate(500px);
     }
 }
