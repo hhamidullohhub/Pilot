@@ -4,85 +4,20 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-.person {
-    width: 40px;
-}
-
-.putin {
-    width: 20px;
-    margin-left: -60px;
-    margin-top: 100px;
-    animation-name: putin;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-.pilot {
-    width: 200px;
-    height: 100px;
-    margin-left: -626px;
-    margin-top: 100px;
-    border-radius: 10px;
-    animation-name: pilot;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes pilot {
-    0% {
-        transform: translateX(0px);
-    }
-
-    20% {
-        transform: translateX(426px) translateY(-100px);
-    }
-
-    50% {
-        transform: translateY(+100px);
-    }
-}
-
-@keyframes putin {
-    0% {
-        transform: translateX(0px);
-    }
-
-    20% {
-        transform: translateX(426px) translateY(-100px);
-    }
-
-    50% {
-        transform: translateY(+100px);
-    }
-}
-
-.bird {
-    width: 50px;
-    margin-top: -300px;
-    margin-left: -360px;
-    animation-name: bird;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-
-}
-
-@keyframes bird {
-    0% {
-        transform: translateY(200px);
-    }
-
-    20% {
-        transform: translate(200px);
-    }
-
-    50% {
-        transform: translateX(500px);
-    }
+.black-cub {
+    background-color: black;
 }
